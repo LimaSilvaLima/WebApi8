@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|c:\\workspace-eclipse-spring-tool\\webapi8-video\\model\\autormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|solutionrelative:model\\autormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|c:\\workspace-eclipse-spring-tool\\webapi8-video\\model\\livromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|solutionrelative:model\\livromodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|c:\\workspace-eclipse-spring-tool\\webapi8-video\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|c:\\workspace-eclipse-spring-tool\\webapi8-video\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|solutionrelative:controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 165,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LivroModel.cs",
+              "DocumentMoniker": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Model\\LivroModel.cs",
+              "RelativeDocumentMoniker": "Model\\LivroModel.cs",
+              "ToolTip": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Model\\LivroModel.cs",
+              "RelativeToolTip": "Model\\LivroModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T00:06:40.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutorModel.cs",
+              "DocumentMoniker": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Model\\AutorModel.cs",
+              "RelativeDocumentMoniker": "Model\\AutorModel.cs",
+              "ToolTip": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Model\\AutorModel.cs",
+              "RelativeToolTip": "Model\\AutorModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T00:02:53.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T22:58:33.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T15:48:34.102Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
