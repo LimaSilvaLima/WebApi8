@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|c:\\workspace-eclipse-spring-tool\\webapi8-video\\services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|solutionrelative:services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|c:\\workspace-eclipse-spring-tool\\webapi8-video\\controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|solutionrelative:controllers\\autorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|c:\\workspace-eclipse-spring-tool\\webapi8-video\\dto\\autor\\autorcriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|solutionrelative:dto\\autor\\autorcriacaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|c:\\workspace-eclipse-spring-tool\\webapi8-video\\dto\\autor\\autoredicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|solutionrelative:dto\\autor\\autoredicaodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AutorController.cs",
               "DocumentMoniker": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Controllers\\AutorController.cs",
               "RelativeDocumentMoniker": "Controllers\\AutorController.cs",
               "ToolTip": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Controllers\\AutorController.cs",
               "RelativeToolTip": "Controllers\\AutorController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAACkAAABtAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwDkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T00:20:59.286Z",
+              "WhenOpened": "2024-12-21T21:02:22.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AutorCriacaoDto.cs",
+              "DocumentMoniker": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Dto\\Autor\\AutorCriacaoDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Autor\\AutorCriacaoDto.cs",
+              "ToolTip": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Dto\\Autor\\AutorCriacaoDto.cs",
+              "RelativeToolTip": "Dto\\Autor\\AutorCriacaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T21:02:14.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AutorService.cs",
+              "DocumentMoniker": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Services\\Autor\\AutorService.cs",
+              "RelativeDocumentMoniker": "Services\\Autor\\AutorService.cs",
+              "ToolTip": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Services\\Autor\\AutorService.cs",
+              "RelativeToolTip": "Services\\Autor\\AutorService.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAQwH4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T17:48:21.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutorEdicaoDto.cs",
+              "DocumentMoniker": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Dto\\Autor\\AutorEdicaoDto.cs",
+              "RelativeDocumentMoniker": "Dto\\Autor\\AutorEdicaoDto.cs",
+              "ToolTip": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Dto\\Autor\\AutorEdicaoDto.cs",
+              "RelativeToolTip": "Dto\\Autor\\AutorEdicaoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T16:54:30.587Z",
               "EditorCaption": ""
             }
           ]
