@@ -21,7 +21,7 @@ namespace WebApi8_Video.Services.Autor
 
                 var autor = await _context.Autores.FirstOrDefaultAsync(autorBanco => autorBanco.Id == idAutor);
 
-                if (autor == null)
+                if(autor == null)
                 {
                     resposta.Mensagem = "Nenhum registro localizado!";
                     return resposta;
@@ -32,8 +32,7 @@ namespace WebApi8_Video.Services.Autor
 
                 return resposta;
 
-            }
-            catch (Exception ex)
+            }catch (Exception ex)
             {
                 resposta.Mensagem = ex.Message;
                 resposta.Status = false;
@@ -50,7 +49,7 @@ namespace WebApi8_Video.Services.Autor
                     .Include(a => a.Autor)
                     .FirstOrDefaultAsync(livroBanco => livroBanco.Id == idLivro);
 
-                if (livro == null)
+                if(livro == null)
                 {
                     resposta.Mensagem = "Nenhum registro localizado!";
                     return resposta;
@@ -60,7 +59,7 @@ namespace WebApi8_Video.Services.Autor
                 resposta.Mensagem = "Autor localizado!";
                 return resposta;
 
-
+               
 
             }
             catch (Exception ex)
@@ -93,8 +92,7 @@ namespace WebApi8_Video.Services.Autor
                 return resposta;
 
 
-            }
-            catch (Exception ex)
+            }catch(Exception ex)
             {
                 resposta.Mensagem = ex.Message;
                 resposta.Status = false;
@@ -149,7 +147,7 @@ namespace WebApi8_Video.Services.Autor
                 var autor = await _context.Autores
                     .FirstOrDefaultAsync(autorBanco => autorBanco.Id == idAutor);
 
-                if (autor == null)
+                if(autor == null)
                 {
                     resposta.Mensagem = "Nenhum autor localizado!";
                     return resposta;
@@ -163,8 +161,7 @@ namespace WebApi8_Video.Services.Autor
 
                 return resposta;
 
-            }
-            catch (Exception ex)
+            }catch(Exception ex)
             {
                 resposta.Mensagem = ex.Message;
                 resposta.Status = false;

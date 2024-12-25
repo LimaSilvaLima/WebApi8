@@ -10,17 +10,19 @@ namespace WebApi8_Video.Services.Livro
     {
         private readonly AppDbContext _context;
 
-        public LivroService( AppDbContext context)
+        public LivroService(AppDbContext context)
         {
             _context = context;
         }
+
         public async Task<ResponseModel<LivroModel>> BuscarLivroPorId(int idLivro)
         {
             ResponseModel<LivroModel> resposta = new ResponseModel<LivroModel>();
             try
             {
 
-                var livro = await _context.Livros.FirstOrDefaultAsync(livroBanco => livroBanco.Id == idLivro);
+                var livro = await _context.Livros.Include(a => a.Autor)
+                    .FirstOrDefaultAsync(livroBanco => livroBanco.Id == idLivro);
 
                 if (livro == null)
                 {
@@ -29,7 +31,7 @@ namespace WebApi8_Video.Services.Livro
                 }
 
                 resposta.Dados = livro;
-                resposta.Mensagem = "Livro Localizado!";
+                resposta.Mensagem = "Livro Localizado com Sucesso!";
 
                 return resposta;
 
@@ -40,20 +42,18 @@ namespace WebApi8_Video.Services.Livro
                 resposta.Status = false;
                 return resposta;
             }
-
         }
 
-        public async Task<ResponseModel<List<LivroModel>>> BuscarLivroPorIdAutor(int IdAutor)
+        public async Task<ResponseModel<List<LivroModel>>> BuscarLivroPorIdAutor(int idAutor)
         {
             ResponseModel<List<LivroModel>> resposta = new ResponseModel<List<LivroModel>>();
-           
             try
             {
-                var livro =await _context.Livros
+                var livro = await _context.Livros
                     .Include(a => a.Autor)
-                    .Where(livroBanco => livroBanco.Autor.Id == IdAutor)
+                    .Where(livroBanco => livroBanco.Autor.Id == idAutor)
                     .ToListAsync();
-                
+
                 if (livro == null)
                 {
                     resposta.Mensagem = "Nenhum registro localizado!";
@@ -63,6 +63,8 @@ namespace WebApi8_Video.Services.Livro
                 resposta.Dados = livro;
                 resposta.Mensagem = "Livros Localizados!";
                 return resposta;
+
+
 
             }
             catch (Exception ex)
@@ -80,27 +82,28 @@ namespace WebApi8_Video.Services.Livro
             try
             {
                 var autor = await _context.Autores
-                    .FirstOrDefaultAsync( autorBanco => autorBanco.Id == livroCriacaoDto.Autor.Id);
-
+                    .FirstOrDefaultAsync(autorBanco => autorBanco.Id == livroCriacaoDto.Autor.Id);
 
                 if (autor == null)
                 {
-                    resposta.Mensagem = "Nenhum registro de autor Localizado";
+                    resposta.Mensagem = "Nenhum registro de autor localizado!";
                     return resposta;
                 }
+
                 var livro = new LivroModel()
                 {
                     Titulo = livroCriacaoDto.Titulo,
-                    Autor = autor,
-
+                    Autor = autor
                 };
 
                 _context.Add(livro);
                 await _context.SaveChangesAsync();
+
                 resposta.Dados = await _context.Livros.Include(a => a.Autor).ToListAsync();
 
-
                 return resposta;
+                
+
 
             }
             catch (Exception ex)
@@ -113,32 +116,40 @@ namespace WebApi8_Video.Services.Livro
 
         public async Task<ResponseModel<List<LivroModel>>> EditarLivro(LivroEdicaoDto livroEdicaoDto)
         {
-
             ResponseModel<List<LivroModel>> resposta = new ResponseModel<List<LivroModel>>();
-
             try
             {
-                var livro = await _context.Livros
-                        .Include(a => a.Autor)
-                        .FirstOrDefaultAsync(livroBanco => livroBanco.Id == livroEdicaoDto.Id);
+
+               var livro = await _context.Livros
+                    .Include(a => a.Autor)
+                    .FirstOrDefaultAsync(livroBanco => livroBanco.Id == livroEdicaoDto.Id);
+
                 var autor = await _context.Autores
-                    .FirstOrDefaultAsync(autorBanco => autorBanco.Id == livroEdicaoDto.Autor.Id);
+                     .FirstOrDefaultAsync(autorBanco => autorBanco.Id == livroEdicaoDto.Autor.Id);
 
 
-                if (autor ==null)
+
+               if (autor == null)
                 {
-                    resposta.Mensagem = "Nenhum registro de autor localizado";
+                    resposta.Mensagem = "Nenhum registro de autor localizado!";
+                    return resposta;
+                }
+
+                if (livro == null)
+                {
+                    resposta.Mensagem = "Nenhum registro de livro localizado!";
                     return resposta;
                 }
 
                 livro.Titulo = livroEdicaoDto.Titulo;
                 livro.Autor = autor;
-                _context.Update(livro); ;
+
+                _context.Update(livro);
                 await _context.SaveChangesAsync();
+
                 resposta.Dados = await _context.Livros.ToListAsync();
 
                 return resposta;
-
             }
             catch (Exception ex)
             {
@@ -155,7 +166,7 @@ namespace WebApi8_Video.Services.Livro
             try
             {
 
-                var livro = await _context.Livros
+                var livro = await _context.Livros.Include(a => a.Autor)
                     .FirstOrDefaultAsync(livroBanco => livroBanco.Id == idLivro);
 
                 if (livro == null)
@@ -179,7 +190,6 @@ namespace WebApi8_Video.Services.Livro
                 resposta.Status = false;
                 return resposta;
             }
-;
         }
 
         public async Task<ResponseModel<List<LivroModel>>> ListarLivros()
@@ -188,8 +198,7 @@ namespace WebApi8_Video.Services.Livro
             try
             {
 
-                var livros = await _context.Livros
-                    .Include(a => a.Autor).ToListAsync();
+                var livros = await _context.Livros.Include(a => a.Autor).ToListAsync();
 
                 resposta.Dados = livros;
                 resposta.Mensagem = "Todos os livros foram coletados!";
@@ -205,5 +214,4 @@ namespace WebApi8_Video.Services.Livro
             }
         }
     }
-    
 }

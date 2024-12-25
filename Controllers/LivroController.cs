@@ -18,6 +18,7 @@ namespace WebApi8_Video.Controllers
             _livroInterface = livroInterface;
         }
 
+
         [HttpGet("ListarLivros")]
         public async Task<ActionResult<ResponseModel<List<LivroModel>>>> ListarLivros()
         {
@@ -39,12 +40,13 @@ namespace WebApi8_Video.Controllers
             return Ok(livro);
         }
 
-        [HttpPost("CriarALivro")]
-        public async Task<ActionResult<ResponseModel<LivroModel>>> CriarLivro(LivroCriacaoDto livroCriacaoDto)
+        [HttpPost("CriarLivro")]
+        public async Task<ActionResult<ResponseModel<List<LivroModel>>>> CriarLivro(LivroCriacaoDto livroCriacaoDto)
         {
             var livros = await _livroInterface.CriarLivro(livroCriacaoDto);
             return Ok(livros);
         }
+
 
         [HttpPut("EditarLivro")]
         public async Task<ActionResult<ResponseModel<List<LivroModel>>>> EditarLivro(LivroEdicaoDto livroEdicaoDto)
@@ -53,14 +55,11 @@ namespace WebApi8_Video.Controllers
             return Ok(livros);
         }
 
-
         [HttpDelete("ExcluirLivro")]
-        public async Task<ActionResult<ResponseModel<List<LivroModel>>>> ExcluirLivro(int idLivro)
+        public async Task<ActionResult<ResponseModel<List<AutorModel>>>> ExcluirLivro(int idLivro)
         {
             var livros = await _livroInterface.ExcluirLivro(idLivro);
             return Ok(livros);
         }
-
     }
 }
-
