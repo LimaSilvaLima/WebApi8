@@ -1,6 +1,5 @@
 ﻿using System.Text.Json.Serialization;
 
-
 namespace WebApi8_Video.Models
 {
     public class AutorModel

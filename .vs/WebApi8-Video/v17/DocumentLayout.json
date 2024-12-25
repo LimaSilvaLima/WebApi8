@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|c:\\workspace-eclipse-spring-tool\\webapi8-video\\services\\livro\\ilivrointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|solutionrelative:services\\livro\\ilivrointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|c:\\workspace-eclipse-spring-tool\\webapi8-video\\services\\livro\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|solutionrelative:services\\livro\\livroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|c:\\workspace-eclipse-spring-tool\\webapi8-video\\controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|solutionrelative:controllers\\livrocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|c:\\workspace-eclipse-spring-tool\\webapi8-video\\services\\livro\\ilivrointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|solutionrelative:services\\livro\\ilivrointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|c:\\workspace-eclipse-spring-tool\\webapi8-video\\services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5D6790D-6B7C-44DB-96F4-76F6ABA4929D}|WebApi8-Video.csproj|solutionrelative:services\\autor\\autorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "LivroController.cs",
+              "DocumentMoniker": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Controllers\\LivroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LivroController.cs",
+              "ToolTip": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Controllers\\LivroController.cs",
+              "RelativeToolTip": "Controllers\\LivroController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-25T00:02:18.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ILivroInterface.cs",
               "DocumentMoniker": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Services\\Livro\\ILivroInterface.cs",
               "RelativeDocumentMoniker": "Services\\Livro\\ILivroInterface.cs",
@@ -34,33 +51,37 @@
               "RelativeToolTip": "Services\\Livro\\ILivroInterface.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T21:59:58.015Z",
+              "WhenOpened": "2024-12-24T23:40:45.709Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LivroService.cs",
               "DocumentMoniker": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Services\\Livro\\LivroService.cs",
               "RelativeDocumentMoniker": "Services\\Livro\\LivroService.cs",
               "ToolTip": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Services\\Livro\\LivroService.cs",
               "RelativeToolTip": "Services\\Livro\\LivroService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAcwF0AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T21:55:32.383Z",
+              "WhenOpened": "2024-12-24T23:30:06.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LivroController.cs",
-              "DocumentMoniker": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Controllers\\LivroController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LivroController.cs",
-              "ToolTip": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Controllers\\LivroController.cs",
-              "RelativeToolTip": "Controllers\\LivroController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "AutorService.cs",
+              "DocumentMoniker": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Services\\Autor\\AutorService.cs",
+              "RelativeDocumentMoniker": "Services\\Autor\\AutorService.cs",
+              "ToolTip": "C:\\Workspace-Eclipse-Spring-tool\\WebApi8-Video\\Services\\Autor\\AutorService.cs",
+              "RelativeToolTip": "Services\\Autor\\AutorService.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T21:53:38.713Z",
+              "WhenOpened": "2024-12-24T23:29:28.054Z",
               "EditorCaption": ""
             }
           ]

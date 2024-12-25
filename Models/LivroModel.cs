@@ -4,6 +4,6 @@
     {
         public int Id { get; set; }
         public string Titulo { get; set; }
-        public AutorModel Autor { get; set; }
+        public LivroModel Autor { get; set; }
     }
 }

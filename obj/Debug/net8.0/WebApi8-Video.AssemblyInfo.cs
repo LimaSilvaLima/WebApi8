@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApi8-Video")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+37d4f27c7ab42b042ca54a574720e1c1a2fd81f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d41f85f2492d28ee3c959081bf671f9eaf0e39df")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApi8-Video")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApi8-Video")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
